@@ -1,11 +1,12 @@
 {
   "name": "portfolio-sharjun-hussain",
   "private": true,
-  "homepage" : "https://sharjun-hussain.github.io/portfolio-sharjun-hussain",
+  "homepage" : "https://Sharjun-Hussain.github.io/Portfolio-Sharjun-Hussain/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
