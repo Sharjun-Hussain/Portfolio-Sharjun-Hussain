@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #070a29;
+  color: white !important;
+  font-family: 'Conthrax SemiBold' ;
+  font-weight: 700;
+  
+  
+}
+
+
+@media (prefers-color-scheme: light){
+    body {
+        background-color: white ;
+        color: black;
+    }
+}

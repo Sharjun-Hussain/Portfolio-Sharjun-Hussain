@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Conthrax SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Conthrax SemiBold'), url('./fonts/conthrax-sb.woff') format('woff');
+    }
