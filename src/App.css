@@ -17,3 +17,8 @@
         color: black;
     }
 }
+
+
+.navbar-toggler-icon{
+  background-image: url('./assets/Icons/Menu.gif') !important;
+}
