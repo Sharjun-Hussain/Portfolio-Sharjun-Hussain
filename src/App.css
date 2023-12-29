@@ -18,6 +18,7 @@
 
   overflow-x: hidden;
   overflow-y: hidden;
+  scroll-behavior: smooth;
 }
 
 @media (prefers-color-scheme: light) {
@@ -80,6 +81,74 @@ a:hover {
   margin-top: 15px !important;
 }
 
+
+/* Hero Section */
+
+.Hero-section{
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: 20px !important;
+}
+
+.small-heading{
+  font-size: 16px;
+  margin-left: 3px;
+}
+
+.big-heading{
+  font-family: 'Conthrax SemiBold';
+  text-transform: uppercase;
+  color: white !important;
+  font-size: clamp(20px, 4vw, 60px) !important;
+}
+
+h3{
+  font-family: 'Conthrax SemiBold';
+  text-transform:capitalize !important;
+  color: white !important;
+  opacity: 0.7 !important;
+  font-size: clamp(22px, 4vw, 60px) !important;
+}
+
+p{
+  line-height: 2;
+  margin-top: 20px !important;
+  max-width: 600px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white !important;
+  opacity: 0.8;
+}
+
+.button {
+  color: var(--special-color);
+  background-color: transparent;
+  border: 1px solid var(--special-color);
+  border-radius: 5px;
+  padding-block: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
+  text-decoration: none;
+  transition: 0.3s;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin-block: 10px;
+  margin-bottom: 90px;
+  font-size: 16px;
+}
+
+.button:hover {
+  box-shadow: 3px 3px 0 0 var(--special-color);
+  transform: translate(-4px, -4px);
+  cursor: pointer;
+}
+
+
 @media screen and (max-width: 1023px) and (orientation: portrait) {
   * {
     font-size: 10px;
@@ -99,6 +168,48 @@ a:hover {
     transition: 0.3s;
     font-size: 16px;
     margin-top: 10px;
+  }
+
+
+
+  /* Hero Section */
+
+  .Hero-section{
+    
+    
+    justify-content: start;
+    margin-top: 50px !important;
+    padding-inline: 30px !important;
+  }
+
+  
+  .button {
+    color: var(--special-color);
+    background-color: transparent;
+    border: 1px solid var(--special-color);
+    border-radius: 5px;
+    padding-block: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    text-decoration: none;
+    transition: 0.3s;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-block: 40px;
+    font-size: 16px;
+  }
+
+  p{
+    line-height: 1.5;
+    margin-top: 10px !important;
+    max-width: 600px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white !important;
+    opacity: 0.8;
   }
 }
 

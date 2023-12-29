@@ -13,7 +13,7 @@ function TopNav() {
     <>
       <Navbar expand="lg">
         <Container fluid>
-          <Navbar.Brand className="ms-3 py-3 " href="#home">
+          <Navbar.Brand className="ms-3 py-4 " href="#home">
             <img src={logo} width={80} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
@@ -24,8 +24,8 @@ function TopNav() {
           >
             <Offcanvas.Header closeButton></Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className=" d-flex  justify-content-end flex-grow-1 pe-3  my-3  py-3">
-                <Nav.Link href="#action1" className="px-3 ">
+              <Nav className=" d-flex  justify-content-end flex-grow-1 pe-3  my-3  py-4">
+                <Nav.Link href="#about" className="px-3 ">
                   {" "}
                   <img
                     src={HomeIcon}
@@ -35,7 +35,7 @@ function TopNav() {
                   />{" "}
                   <span className="text-white">01. </span> About
                 </Nav.Link>
-                <Nav.Link href="#action2" className="px-3">
+                <Nav.Link href="#projects" className="px-3">
                   {" "}
                   <img
                     src={HomeIcon}
@@ -45,7 +45,7 @@ function TopNav() {
                   />
                        <span className="text-white">02. </span> Projects
                 </Nav.Link>
-                <Nav.Link href="#action2" className="px-3  ">
+                <Nav.Link href="#contact" className="px-3  ">
                   <img
                     src={ContactIcon}
                     className="me-2"

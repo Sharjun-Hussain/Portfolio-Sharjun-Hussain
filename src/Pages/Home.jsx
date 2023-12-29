@@ -1,7 +1,7 @@
 // import { useEffect, useState } from "react"
 // import LoadingScreen from "../Components/LoadingScreen";
 
-// import Hero from "../Components/Hero";
+import Hero from "../Components/Hero";
 import TopNav from "../Components/NavBar";
 
 // import ColouredLine from "../Utilities/ColouredLine";
@@ -9,9 +9,9 @@ import TopNav from "../Components/NavBar";
 const Home = () => {
   return (
     <>
-      <TopNav />
+      <TopNav  />
       {/* <ColouredLine color="white" /> */}
-      {/* <Hero /> */}
+      <Hero />
     </>
   );
 };
