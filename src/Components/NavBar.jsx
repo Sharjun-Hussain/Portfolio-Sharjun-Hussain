@@ -13,7 +13,7 @@ function TopNav() {
     <>
       <Navbar expand="lg">
         <Container fluid>
-          <Navbar.Brand className="ms-3 py-4 " href="#home">
+          <Navbar.Brand className="ms-2 py-4 " href="#home">
             <img src={logo} width={80} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
