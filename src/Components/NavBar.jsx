@@ -16,14 +16,15 @@ function TopNav() {
           <Navbar.Brand className="ms-2 py-4 " href="#home">
             <img src={logo} width={80} />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
+          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} data-bs-dismiss="offcanvas" />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-lg`}
             aria-labelledby={`offcanvasNavbarLabel-expand-lg`}
             placement="end"
+            
           >
             <Offcanvas.Header closeButton></Offcanvas.Header>
-            <Offcanvas.Body>
+            <Offcanvas.Body data-bs-dismiss="offcanvas" >
               <Nav className=" d-flex  justify-content-end flex-grow-1 pe-3  my-3  py-4">
                 <Nav.Link href="#about" className="px-3 ">
                   {" "}

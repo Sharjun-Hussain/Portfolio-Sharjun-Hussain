@@ -167,9 +167,10 @@ p{
 /* About-Section */
 
 .about-section{
-  height: 100vh ;
+ height: 100vh;
   padding-inline: 20px !important;
   padding-top: 60px;
+  
 }
 
 h2{
@@ -196,6 +197,25 @@ h2{
   filter: hue-rotate(0deg);
 }
 
+li{
+  position: relative;
+  padding-left: 20px !important;
+  list-style: none;
+  margin-bottom: 10px;
+  overflow-y: hidden;
+  
+}
+
+li::before{
+  content: "▹";
+    position: absolute;
+    left: 0;
+    color: var(--special-color);
+    font-size: 16px;
+    line-height: 12px;
+    
+
+}
 
 /* .img-thumbnail{
   background-color: black !important;
@@ -288,7 +308,7 @@ h2{
 /* About Section */
 
   .about-section{
-    height: 100vh ;
+    height: auto;
     margin-inline: 0px !important;
     padding-top: 90px !important;
      /* font-family: 'Conthrax SemiBold' ; */
