@@ -45,6 +45,7 @@
 
 .navbar-toggler:focus{
   outline: none !important;
+  box-shadow: none !important;
 }
 a:hover {
   color: white !important;
