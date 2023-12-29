@@ -14,10 +14,10 @@ const Hero = () => {
       <Container id="Home">
         <Row>
           <Col className="Hero-section">
-            <motion.div>
+           
               {" "}
-              <h1 className="small-heading mb-2">Hi, my name is </h1>
-            </motion.div>
+              <h1 className="small-heading pb-2 ">Hi, my name is </h1>
+          
             <h2 className="big-heading">Sharjun Hussain.</h2>
             <h3 className="sub-heading">I build things for the web.</h3>
             <p>
