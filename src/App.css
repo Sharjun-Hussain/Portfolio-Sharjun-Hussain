@@ -17,24 +17,21 @@
   font-size: 13px;
   overflow-x: hidden;
   scroll-behavior: smooth;
- 
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 1px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: #1a55ad;
   border: 3px solid #125ac7;
   border-radius: 10px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: #ffffff;
 }
-
-
 
 @media (prefers-color-scheme: light) {
   body {
@@ -47,19 +44,16 @@
   background-image: url("./assets/Icons/Menu.gif") !important;
   width: 100% !important;
   height: 100% !important;
-  
-  
 }
 
-.navbar-toggler{
+.navbar-toggler {
   width: 60px;
   height: 50px !important;
   border: none !important;
   outline: none;
-
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
   outline: none !important;
   box-shadow: none !important;
 }
@@ -95,10 +89,9 @@ a:hover {
   margin-top: 15px !important;
 }
 
-
 /* Hero Section */
 
-.Hero-section{
+.Hero-section {
   height: 100vh !important;
   display: flex;
   flex-direction: column;
@@ -106,31 +99,31 @@ a:hover {
   padding-inline: 20px !important;
 }
 
-.small-heading{
+.small-heading {
   font-size: 16px;
   margin-left: 3px;
 }
 
-.big-heading{
-  font-family: 'Conthrax SemiBold';
+.big-heading {
+  font-family: "Conthrax SemiBold";
   text-transform: uppercase;
   color: white !important;
   font-size: clamp(20px, 4vw, 60px) !important;
 }
 
-h3{
-  font-family: 'Conthrax SemiBold';
-  text-transform:capitalize !important;
+h3 {
+  font-family: "Conthrax SemiBold";
+  text-transform: capitalize !important;
   color: white !important;
   opacity: 0.7 !important;
   font-size: clamp(22px, 4vw, 60px) !important;
 }
 
-p{
+p {
   line-height: 2;
   margin-top: 20px !important;
   max-width: 600px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: white !important;
@@ -150,7 +143,7 @@ p{
   transition: 0.3s;
   text-transform: capitalize;
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   margin-block: 10px;
   margin-bottom: 90px;
   font-size: 16px;
@@ -163,19 +156,17 @@ p{
   cursor: pointer;
 }
 
-
 /* About-Section */
 
-.about-section{
- height: 100vh;
+.about-section {
+  height: 100vh;
   padding-inline: 20px !important;
   padding-top: 60px;
-  
 }
 
-h2{
-  line-height:1 !important;
-  font-family: "Poppins", sans-serif !important; 
+h2 {
+  line-height: 1 !important;
+  font-family: "Poppins", sans-serif !important;
   font-weight: 700 !important;
   overflow-y: hidden;
   color: white !important;
@@ -183,38 +174,48 @@ h2{
 }
 
 
-.MyImage{
-  position: relative !important; 
-  z-index: 6 !important;
-  filter: hue-rotate(10deg);
-  margin-left: 70px !important;
- 
+
+.MyImage::before {
+  content: "";
+  position: absolute !important;
+  width: 100%;
+  height: 100%;
+  inset: 0px;
+  z-index: 3 !important;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+  background-color: #0a192f !important;
+  mix-blend-mode: screen !important;
 }
-.MyImage:hover{
+
+.MyImage {
+  position: relative !important;
+  z-index: 1 !important;
+
+  margin-left: 70px !important;
+}
+.MyImage:hover {
   box-shadow: 6px 6px 0 0 var(--special-color);
   transform: translate(-4px, -4px);
   cursor: pointer;
-  filter: hue-rotate(0deg);
+  background: transparent !important;
+  filter: none !important;
 }
 
-li{
+li {
   position: relative;
   padding-left: 20px !important;
   list-style: none;
   margin-bottom: 10px;
   overflow-y: hidden;
-  
 }
 
-li::before{
+li::before {
   content: "▹";
-    position: absolute;
-    left: 0;
-    color: var(--special-color);
-    font-size: 16px;
-    line-height: 12px;
-    
-
+  position: absolute;
+  left: 0;
+  color: var(--special-color);
+  font-size: 16px;
+  line-height: 12px;
 }
 
 /* .img-thumbnail{
@@ -240,12 +241,10 @@ li::before{
 
 } */
 
-
 @media screen and (max-width: 1023px) and (orientation: portrait) {
   * {
     font-size: 10px;
   }
-
 
   .Resumebutton {
     position: relative;
@@ -263,19 +262,28 @@ li::before{
     text-align: center;
   }
 
-
-
   /* Hero Section */
 
-  .Hero-section{
-    
-    
-    justify-content: start;
+  .Hero-section {
+    height: fit-content !important;
     margin-top: 50px !important;
     padding-inline: 30px !important;
+   
   }
 
+  .small-heading {
+    font-size: 16px;
+    margin-left: 3px;
+  }
   
+  .big-heading {
+    font-family: "Conthrax SemiBold";
+    margin-bottom:10px;
+    margin-top:7px;
+    text-transform: uppercase;
+    color: white !important;
+    font-size: clamp(25px, 4vw, 60px) !important;
+  }
   .button {
     color: var(--special-color);
     background-color: transparent;
@@ -289,40 +297,36 @@ li::before{
     transition: 0.3s;
     text-transform: capitalize;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    margin-block: 40px;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 40px;
     font-size: 16px;
   }
 
-  p{
+  p {
     line-height: 1.5;
     margin-top: 10px !important;
     max-width: 600px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: white !important;
     opacity: 0.8;
   }
 
-/* About Section */
+  /* About Section */
 
-  .about-section{
+  .about-section {
     height: auto;
     margin-inline: 0px !important;
-    padding-top: 90px !important;
-     /* font-family: 'Conthrax SemiBold' ; */
-      font-family: "Poppins", sans-serif !important; 
+    padding-top: 20px !important;
+    /* font-family: 'Conthrax SemiBold' ; */
+    font-family: "Poppins", sans-serif !important;
   }
 
-  .MyImage{
-    position: relative !important; 
+  .MyImage {
+    position: relative !important;
     z-index: 6 !important;
     filter: hue-rotate(10deg);
     margin-left: 0px !important;
-   
   }
-
 }
-
-

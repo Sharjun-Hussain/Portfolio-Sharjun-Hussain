@@ -4,20 +4,18 @@ import { motion } from "framer-motion";
 import { Col, Container, Row } from "react-bootstrap";
 
 const Hero = () => {
-  
   return (
     <motion.div
       initial={{ opacity: 0, y: 0 }}
-      whileInView={{ opacity: 1, y: -20 }} transition={{duration:1}}
+      whileInView={{ opacity: 1, y: -20 }}
+      transition={{ duration: 1 }}
     >
       {/* <div>Side element</div> */}
       <Container id="Home">
         <Row>
           <Col className="Hero-section">
-           
-              {" "}
-              <h1 className="small-heading pb-2 ">Hi, my name is </h1>
-          
+            {" "}
+            <h1 className="small-heading pb-2 ">Hi, my name is </h1>
             <h2 className="big-heading">Sharjun Hussain.</h2>
             <h3 className="sub-heading">I build things for the web.</h3>
             <p>

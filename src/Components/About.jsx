@@ -3,7 +3,7 @@ import My from "../assets/My.jpg";
 
 const About = () => {
   return (
-    <div>
+   
       <Container id="about" className=" about-section ">
         <Row>
           <Col>
@@ -29,29 +29,31 @@ const About = () => {
             </p>
             <p>Here are a few technologies I’ve been working with recently:</p>
             <Container className="">
+              <Row>
               <Col md={6} className="">
                 <ul>
                   <li>React JS</li>
                   <li>Express JS</li>
-                  <li>Bootstrap</li>
+                  <li>Javascript</li>
                   <li>Laravel</li>
                   <li>MongoDB</li>
                 </ul>
               </Col>
               <Col md={6} >
                 <ul>
-                  <li>React JS</li>
-                  <li>Express JS</li>
-                  <li>Bootstrap</li>
-                  <li>Laravel</li>
+                  <li>My SQL</li>
+                  <li>PHP</li>
+                  <li> React Bootstrap</li>
+                  <li>Wordpress</li>
                   <li>MongoDB</li>
                 </ul>
               </Col>
+              </Row>
               
             </Container>
           </Col>
           <Col md={6} xs={12} className="MyImage-Container order-0 ">
-            <div className="top"></div>
+            
             <Image
               src={My}
               fluid
@@ -59,11 +61,11 @@ const About = () => {
               thumbnail
               width={350}
             />
-            <div className="bg"></div>
+           
           </Col>
         </Row>
       </Container>
-    </div>
+    
   );
 };
 
