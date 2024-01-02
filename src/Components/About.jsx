@@ -30,20 +30,20 @@ const About = () => {
             <p>Here are a few technologies I’ve been working with recently:</p>
             <Container className="">
               <Row>
-              <Col md={6} className="">
+              <Col md={6} xs={6} className="">
                 <ul>
                   <li>React JS</li>
                   <li>Express JS</li>
                   <li>Javascript</li>
                   <li>Laravel</li>
-                  <li>MongoDB</li>
+                  <li>React Bootstrap</li>
                 </ul>
               </Col>
-              <Col md={6} >
+              <Col md={6} xs={6} >
                 <ul>
                   <li>My SQL</li>
                   <li>PHP</li>
-                  <li> React Bootstrap</li>
+                  <li>MongoDB </li>
                   <li>Wordpress</li>
                   <li>MongoDB</li>
                 </ul>
