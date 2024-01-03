@@ -37,3 +37,13 @@ jobs:
        npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
       env:
        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+    - name: Deploy production to Netlify
+      uses: South-Paw/action-netlify-deploy@v1.2.0
+      with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          build-dir: './dist'
+          comment-on-commit: true

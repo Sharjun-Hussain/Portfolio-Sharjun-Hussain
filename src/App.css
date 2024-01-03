@@ -241,6 +241,17 @@ li::before {
 
 } */
 
+
+
+
+/* Project Section */
+
+
+.card{
+  background-color: transparent !important;
+  border: 2px solid white !important;
+}
+
 @media screen and (max-width: 1023px) and (orientation: portrait) {
   * {
     font-size: 10px;

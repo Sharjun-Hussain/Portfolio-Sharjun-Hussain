@@ -4,6 +4,7 @@
 import About from "../Components/About";
 import Hero from "../Components/Hero";
 import TopNav from "../Components/NavBar";
+import Projects from "../Components/Projects";
 
 // import ColouredLine from "../Utilities/ColouredLine";
 
@@ -14,6 +15,7 @@ const Home = () => {
       {/* <ColouredLine color="white" /> */}
       <Hero />
       <About/>
+      <Projects/>
     </>
   );
 };
