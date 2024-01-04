@@ -1,7 +1,0 @@
-import{j as r,r as o,_ as s}from"./index-CGZsSeLC.js";const t=()=>r.jsx("div",{className:"loader-wrapper",children:r.jsx("div",{className:"loader"})}),e=o.lazy(()=>s(()=>import("./About-Gy_QN4J1.js"),__vite__mapDeps([0,1,2,3,4]))),_=o.lazy(()=>s(()=>import("./Hero-G7naX3tC.js"),__vite__mapDeps([5,1,2,6,3,4]))),a=o.lazy(()=>s(()=>import("./NavBar-xbv8WFmN.js"),__vite__mapDeps([7,1,2,3,8]))),i=o.lazy(()=>s(()=>import("./Projects-sczVx-w2.js"),__vite__mapDeps([9,1,2,3,4,8]))),c=o.lazy(()=>s(()=>import("./Contact-GLWNT8Rm.js"),__vite__mapDeps([10,1,2,6,3,4]))),n=()=>r.jsx(r.Fragment,{children:r.jsxs(o.Suspense,{fallback:r.jsx(t,{}),children:[r.jsx(a,{}),r.jsx(_,{}),r.jsx(e,{}),r.jsx(i,{}),r.jsx(c,{})]})});export{n as default};
-function __vite__mapDeps(indexes) {
-  if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["assets/About-Gy_QN4J1.js","assets/index-CGZsSeLC.js","assets/index-JJ3uBUkA.css","assets/Container-pjqVI0Tu.js","assets/Row-pEOXxEmD.js","assets/Hero-G7naX3tC.js","assets/motion-swQ6OAT6.js","assets/NavBar-xbv8WFmN.js","assets/CardHeaderContext-7VmeKGJn.js","assets/Projects-sczVx-w2.js","assets/Contact-GLWNT8Rm.js"]
-  }
-  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
-}
