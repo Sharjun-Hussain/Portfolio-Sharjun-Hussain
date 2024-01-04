@@ -9,10 +9,11 @@
   margin: 0;
   box-sizing: border-box;
   background-color: var(--background-color);
+  font-family: "Ubuntu", sans-serif;
   color: var(--special-color) !important;
   /* font-family: 'Conthrax SemiBold' ; */
-  font-family: "Poppins", sans-serif;
-  font-family: "Space Mono", monospace;
+  /* font-family: "Poppins", sans-serif; */
+ 
   font-weight: 700;
   font-size: 13px;
   overflow-x: hidden;
@@ -59,6 +60,7 @@
 }
 a:hover {
   color: white !important;
+  
 }
 
 .Resumebutton {
@@ -72,6 +74,7 @@ a:hover {
   text-decoration: none;
   transition: 0.3s;
   margin-left: 15px;
+  font-family: "Space Mono", monospace;
   font-size: 16px;
 }
 
@@ -102,6 +105,7 @@ a:hover {
 .small-heading {
   font-size: 16px;
   margin-left: 3px;
+  font-family: "Space Mono", monospace;
 }
 
 .big-heading {
@@ -148,6 +152,7 @@ p {
   margin-bottom: 90px;
   font-size: 16px;
   transition: linear;
+  font-family: "Space Mono", monospace;
 }
 
 .button:hover {
@@ -218,38 +223,40 @@ li::before {
   line-height: 12px;
 }
 
-/* .img-thumbnail{
-  background-color: black !important;
-  border: black 1px solid !important;
-} */
-
-/* Future Design For Image  */
-
-/* .MyImage-Container{
-  position: relative;
-}
-.bg{
-  position: absolute !important;
-  border: var(--special-color) 2px solid !important;
-  width: 350px;
-  padding-left: 5px !important;
-  height: 200px;
-  top: 245px;
-  left: 75px;
-  z-index: 1;
-  background-color: transparent;
-
-} */
-
-
 
 
 /* Project Section */
 
 
 .card{
-  background-color: transparent !important;
+  background-color: #112240 !important;
   border: 2px solid white !important;
+  border: none !important;
+  box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7) !important;
+  font-family: "Ubuntu", sans-serif !important; 
+  border-bottom: none !important;
+  margin-bottom: 20px !important;
+  height: 450px !important;
+
+
+}
+  
+.card-header{
+  border-bottom: none !important;
+}
+
+.card-footer{
+  border-top: none !important;
+}
+.card-body{
+  background-color: #112240 !important;
+  
+  border-bottom: none !important;
+  
+}
+
+.card:hover{
+
 }
 
 @media screen and (max-width: 1023px) and (orientation: portrait) {
@@ -317,7 +324,7 @@ li::before {
     line-height: 1.8;
     margin-top: 10px !important;
     max-width: 600px;
-    font-family: "Ubuntu", sans-serif;
+    /* font-family: "Ubuntu", sans-serif; */
     font-size: 16px;
     font-weight: 400;
     color: white !important;
@@ -339,5 +346,13 @@ li::before {
     z-index: 6 !important;
     filter: hue-rotate(10deg);
     margin-left: 0px !important;
+  }
+
+
+
+  /* Project Section */
+
+  .project-section{
+    padding-inline: 30px !important;
   }
 }
