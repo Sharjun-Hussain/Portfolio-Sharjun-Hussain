@@ -37,6 +37,7 @@ const About = () => {
                   <li>Javascript</li>
                   <li>Laravel</li>
                   <li>React Bootstrap</li>
+                  <li>Github Actions | Netlify CI/CD</li>
                 </ul>
               </Col>
               <Col md={6} xs={6} >
@@ -46,6 +47,7 @@ const About = () => {
                   <li>MongoDB </li>
                   <li>Wordpress</li>
                   <li>MongoDB</li>
+                  <li>Docker</li>
                 </ul>
               </Col>
               </Row>

@@ -21,18 +21,20 @@
 }
 
 ::-webkit-scrollbar {
-  width: 1px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #1a55ad;
-  border: 3px solid #125ac7;
+  border: 10px solid #495670;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #ffffff;
+  background-color: rgb(10, 24, 46);
 }
+
+
 
 @media (prefers-color-scheme: light) {
   body {
@@ -172,7 +174,7 @@ p {
 h2 {
   line-height: 1 !important;
   font-family: "Poppins", sans-serif !important;
-  font-weight: 700 !important;
+  font-weight: 600 !important;
   overflow-y: hidden;
   color: white !important;
   position: relative;
