@@ -2,6 +2,7 @@
 // import LoadingScreen from "../Components/LoadingScreen";
 
 import About from "../Components/About";
+import Contact from "../Components/Contact";
 import Hero from "../Components/Hero";
 import TopNav from "../Components/NavBar";
 import Projects from "../Components/Projects";
@@ -16,6 +17,7 @@ const Home = () => {
       <Hero />
       <About/>
       <Projects/>
+      <Contact/>
     </>
   );
 };

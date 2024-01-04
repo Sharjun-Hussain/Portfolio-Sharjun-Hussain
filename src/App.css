@@ -275,6 +275,22 @@ transform: translateY(10px);
   background-color: darkblue !important;
 }
 
+
+/* Contact Section */
+
+.contact-section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.big-heading-Contact{
+  font-size: 65px;
+  
+}
+
+
 @media screen and (max-width: 1023px) and (orientation: portrait) {
   * {
     font-size: 10px;
@@ -371,4 +387,19 @@ transform: translateY(10px);
   .project-section{
     padding-inline: 30px !important;
   }
+
+
+
+  /* Contact Section */
+
+
+  .big-heading-Contact{
+    font-size: 35px;
+    
+  }
 }
+
+
+
+
+
