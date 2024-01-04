@@ -23,7 +23,7 @@ const Hero = () => {
               designing) exceptional digital experiences. Currently, I’m focused
               on building accessible, human-centered products at Upstatement.
             </p>
-            <a className="button">Connect with Me</a>
+            <a className="button" href="https://linkedin.com/in/sharjun-hussain">Connect with Me</a>
           </Col>
         </Row>
       </Container>
