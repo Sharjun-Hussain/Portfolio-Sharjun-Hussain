@@ -36,12 +36,12 @@ const Contact = () => {
           >
             Get In Touch
           </h2>
-          <div style={{fontSize:"16px"}} className="">
-            "I am actively seeking new opportunities as a full-stack software
+          <div className="contact-text">
+            I am actively seeking new opportunities as a full-stack software
             developer. My inbox is always open for inquiries or job-related
             discussions. Whether you have a question or want to discuss
             potential opportunities, feel free to reach out. I'm enthusiastic
-            about exploring new roles and would love to connect with you!"
+            about exploring new roles and would love to connect with you!
           </div>
         </Row>
       </Container>
