@@ -6,14 +6,16 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div className="contact-section">
+    <div >
+      <div className="contact-section">
       <motion.div
         initial={{ opacity: 0, y: 0 }}
         whileInView={{ opacity: 1, y: -20 }}
         transition={{ duration: 1 }}
+        
       >
         {/* <div>Side element</div> */}
-        <Container id="contact">
+        <Container id="contact" >
           <Row>
             <Col>
               <div className="heading text-center  ">
@@ -45,10 +47,16 @@ const Contact = () => {
           </div>
 
           <div className="pt-5 d-flex  justify-content-center ">
-            <a className="button">Say Hello</a>
+            <a className="button" href="mailto:mrjoon005@gmail.com">Say Hello</a>
           </div>
         </Row>
       </Container>
+      </div>
+
+     <div className="footer d-flex justify-content-center pb-5">
+        Designed By Sharjun Hussain.
+
+     </div>
     </div>
   );
 };
