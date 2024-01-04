@@ -19,9 +19,9 @@ const Projects = () => {
       </Row>
 
      
-      <Row>
+      <Row className="mt-4">
       <Col md={4} xs={12}>
-          <div className="Project-Card">
+          <div className="Project-Card ">
             <Card>
               <Card.Header className="d-flex  justify-content-start ">
                 <img
@@ -116,7 +116,7 @@ const Projects = () => {
                   className="px-4 text-white mb-3"
                   style={{
                     background: "transparent",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     fontWeight: 300,
                     opacity: 0.6,
                   }}
@@ -170,7 +170,7 @@ const Projects = () => {
                   className="px-4 text-white mb-3"
                   style={{
                     background: "transparent",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     fontWeight: 300,
                     opacity: 0.6,
                   }}
@@ -224,7 +224,7 @@ const Projects = () => {
                   className="px-4 text-white mb-3"
                   style={{
                     background: "transparent",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     fontWeight: 300,
                     opacity: 0.6,
                   }}
@@ -278,7 +278,7 @@ const Projects = () => {
                   className="px-4 text-white mb-3"
                   style={{
                     background: "transparent",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     fontWeight: 300,
                     opacity: 0.6,
                   }}
@@ -332,7 +332,7 @@ const Projects = () => {
                   className="px-4 text-white mb-3"
                   style={{
                     background: "transparent",
-                    fontSize: "12px",
+                    fontSize: "13px",
                     fontWeight: 300,
                     opacity: 0.6,
                   }}
