@@ -1,6 +1,9 @@
-import { Col, Container, Image, Row } from "react-bootstrap";
+// import { Suspense, } from "react";
+import { Col, Container,  Row } from "react-bootstrap";
 import My from "../assets/My.jpg";
-import { Suspense } from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 
 const About = () => {
   return (
@@ -56,15 +59,17 @@ const About = () => {
             </Container>
           </Col>
           <Col md={6} xs={12} className="MyImage-Container order-0 ">
-           <Suspense fallback="Loading">
+            <LazyLoadImage src={My} alt="Hello" effect="blur"  width={350} />
+           {/* <Suspense fallback={<div>Loading</div>}>
             <Image
               src={My}
               fluid
               className=" mt-3 MyImage order-0 "
               thumbnail
               width={350}
+              loading="lazy"
             />
-            </Suspense> 
+            </Suspense>  */}
            
           </Col>
         </Row>
