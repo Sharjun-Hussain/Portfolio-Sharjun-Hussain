@@ -237,6 +237,8 @@ li::before {
   border-bottom: none !important;
   margin-bottom: 20px !important;
   height: 450px !important;
+  transition: all ease 300ms;
+  cursor: pointer;
 
 
 }
@@ -256,7 +258,20 @@ li::before {
 }
 
 .card:hover{
+transform: translateY(10px);
+}
 
+.Project-Card a{
+  font-size: 22px;
+  text-decoration: none;
+  color: white !important;
+  transition: 200ms;
+}
+
+
+.card:hover ~ .Project-Card a{
+  color: var(--special-color) !important;
+  background-color: darkblue !important;
 }
 
 @media screen and (max-width: 1023px) and (orientation: portrait) {
