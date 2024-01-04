@@ -292,8 +292,8 @@ transform: translateY(10px);
 
 .contact-text{
   padding-inline: 90px !important;
-  font-size: 16px;
-  line-height: 1.7;
+  font-size: 18px;
+  line-height: 1.9;
   text-align: center;
   font-weight: 400;
   color: var(--normal-color) !important;
@@ -407,10 +407,27 @@ transform: translateY(10px);
 
   /* Contact Section */
 
-
+  .contact-section{
+    margin-top: 50px;
+    height: auto !important;
+    padding-inline: 30px !important;
+  }
   .big-heading-Contact{
     font-size: 35px;
     
+  }
+
+  .contact-text{
+    padding: 0px !important;
+    line-height: 1.4;
+    opacity: 0.6;
+    font-weight: 300;
+    font-size: 17px;
+    
+  }
+
+  .contact-section .heading{
+    padding-top: 28px !important;
   }
 }
 
