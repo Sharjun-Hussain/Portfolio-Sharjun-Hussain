@@ -3,6 +3,7 @@ import logo from "../assets/Logo/logo.png";
 
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Resume from '../assets/resume.pdf'
 // import HomeIcon from "../assets/Icons/Home.gif";
 // import ContactIcon from "../assets/Icons/Contact.gif";
 
@@ -55,7 +56,7 @@ function TopNav() {
                   />{" "} */}
                       <span className="text-white ">03. </span> Contact
                 </Nav.Link>
-                <a className="Resumebutton">Resume</a>
+                <a className="Resumebutton" download="Sharjun-Hussain-Resume.pdf" rel="noreferrer"  target="_blank" href={Resume}>Resume</a>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
