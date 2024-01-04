@@ -1,6 +1,6 @@
 // import { useEffect, useState } from "react"
 // import LoadingScreen from "../Components/LoadingScreen";
-import { lazy } from "react";
+import { lazy ,Suspense } from "react";
 
 
 const About = lazy(() => import('../Components/About'));
@@ -19,12 +19,16 @@ const Contact = lazy(() => import('../Components/Contact'));
 const Home = () => {
   return (
     <>
+
+    <Suspense fallback={<div className="loader"></div>}>
+
       <TopNav  />
       {/* <ColouredLine color="white" /> */}
       <Hero />
       <About/>
       <Projects/>
       <Contact/>
+    </Suspense>
     </>
   );
 };
