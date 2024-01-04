@@ -1,5 +1,6 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 import My from "../assets/My.jpg";
+import { Suspense } from "react";
 
 const About = () => {
   return (
@@ -55,7 +56,7 @@ const About = () => {
             </Container>
           </Col>
           <Col md={6} xs={12} className="MyImage-Container order-0 ">
-            
+           <Suspense fallback="Loading">
             <Image
               src={My}
               fluid
@@ -63,6 +64,7 @@ const About = () => {
               thumbnail
               width={350}
             />
+            </Suspense> 
            
           </Col>
         </Row>
