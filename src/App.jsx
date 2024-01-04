@@ -1,6 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css'
-import Home from "./Pages/Home";
+import { lazy } from "react";
+const Home = lazy(() => import('./Pages/Home'));
+// import Home from "./Pages/Home";
 
 function App() {
   return (
