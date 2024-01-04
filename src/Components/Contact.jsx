@@ -43,6 +43,10 @@ const Contact = () => {
             potential opportunities, feel free to reach out. I'm enthusiastic
             about exploring new roles and would love to connect with you!
           </div>
+
+          <div className="pt-5 d-flex  justify-content-center ">
+            <a className="button">Say Hello</a>
+          </div>
         </Row>
       </Container>
     </div>
