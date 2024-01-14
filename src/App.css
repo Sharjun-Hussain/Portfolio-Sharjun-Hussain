@@ -441,7 +441,7 @@ transform: translateY(10px);
 
   .about-section {
     height: auto;
-    margin-inline: 0px !important;
+    padding-inline: 30px !important;
     padding-top: 40px !important;
     /* font-family: 'Conthrax SemiBold' ; */
     font-family: "Poppins", sans-serif !important;
