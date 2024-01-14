@@ -1,0 +1,7 @@
+import{j as r,r as o,_ as s}from"./index-s8lFgICS.js";const t=()=>r.jsx("div",{className:"loader-wrapper",children:r.jsx("div",{className:"loader"})}),e=o.lazy(()=>s(()=>import("./About-b1MgImap.js"),__vite__mapDeps([0,1,2,3,4]))),_=o.lazy(()=>s(()=>import("./Hero-73DF0VGa.js"),__vite__mapDeps([5,1,2,6,3,4]))),a=o.lazy(()=>s(()=>import("./NavBar-X_DznM6J.js"),__vite__mapDeps([7,1,2,3,8]))),i=o.lazy(()=>s(()=>import("./Projects-u_-9QXUo.js"),__vite__mapDeps([9,1,2,3,4,8]))),c=o.lazy(()=>s(()=>import("./Contact-tjm2E9Im.js"),__vite__mapDeps([10,1,2,6,3,4]))),n=()=>r.jsx(r.Fragment,{children:r.jsxs(o.Suspense,{fallback:r.jsx(t,{}),children:[r.jsx(a,{}),r.jsx(_,{}),r.jsx(e,{}),r.jsx(i,{}),r.jsx(c,{})]})});export{n as default};
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = ["assets/About-b1MgImap.js","assets/index-s8lFgICS.js","assets/index-Bmq7uOIN.css","assets/Container-x9Zu8UEU.js","assets/Row-0dg-chxn.js","assets/Hero-73DF0VGa.js","assets/motion-80nP9rHY.js","assets/NavBar-X_DznM6J.js","assets/CardHeaderContext-_AU4AL1z.js","assets/Projects-u_-9QXUo.js","assets/Contact-tjm2E9Im.js"]
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}

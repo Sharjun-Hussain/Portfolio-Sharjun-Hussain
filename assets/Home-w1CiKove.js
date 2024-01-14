@@ -1,7 +1,0 @@
-import{j as r,r as o,_ as s}from"./index-ofFO7Agn.js";const t=()=>r.jsx("div",{className:"loader-wrapper",children:r.jsx("div",{className:"loader"})}),e=o.lazy(()=>s(()=>import("./About-2bqon8Rj.js"),__vite__mapDeps([0,1,2,3,4]))),_=o.lazy(()=>s(()=>import("./Hero-VxX8VOvD.js"),__vite__mapDeps([5,1,2,6,3,4]))),a=o.lazy(()=>s(()=>import("./NavBar-QiD4xR_F.js"),__vite__mapDeps([7,1,2,3,8]))),i=o.lazy(()=>s(()=>import("./Projects-sENmHgj7.js"),__vite__mapDeps([9,1,2,3,4,8]))),c=o.lazy(()=>s(()=>import("./Contact-nPOwi3kE.js"),__vite__mapDeps([10,1,2,6,3,4]))),n=()=>r.jsx(r.Fragment,{children:r.jsxs(o.Suspense,{fallback:r.jsx(t,{}),children:[r.jsx(a,{}),r.jsx(_,{}),r.jsx(e,{}),r.jsx(i,{}),r.jsx(c,{})]})});export{n as default};
-function __vite__mapDeps(indexes) {
-  if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["assets/About-2bqon8Rj.js","assets/index-ofFO7Agn.js","assets/index-JJ3uBUkA.css","assets/Container-oVfEGl7o.js","assets/Row-2BQ2ToCZ.js","assets/Hero-VxX8VOvD.js","assets/motion-Qhr59GWI.js","assets/NavBar-QiD4xR_F.js","assets/CardHeaderContext-SAvH_3tB.js","assets/Projects-sENmHgj7.js","assets/Contact-nPOwi3kE.js"]
-  }
-  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
-}
