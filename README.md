@@ -1,11 +1,31 @@
-# PortFolio Using React JS
+# Portfolio Site
 
-THis is my portfolio website repository i've build [See My PortFolio](https://sharjun-hussain.github.io/Portfolio-Sharjun-Hussain/)
+Welcome to the repository for my personal portfolio site, built using React. This site showcases my projects, skills, and experience in a user-friendly and visually appealing manner.
+
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Interactive particle background using [tsParticles](https://github.com/matteobruni/tsparticles)
+- Responsive design with [React Bootstrap](https://react-bootstrap.github.io/)
+- Project carousel with [Swiper](https://swiperjs.com/)
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/portfolio-site.git
 
 
-```bash
-  npm run dev
-```
+
 
 
 Developed By : Sharjun Hussain | Full-Stack Dev 
