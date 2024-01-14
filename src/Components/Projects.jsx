@@ -39,10 +39,12 @@ const Projects = () => {
                   className="px-4 text-white"
                   style={{ background: "transparent", fontSize: "22px" }}
                 >
-                  EventSpot Hall Booking
+                  <Link to="https://github.com/Sharjun-Hussain/Portfolio-Sharjun-Hussain">
+                    PortFolio
+                  </Link>
                 </div>
                 <div
-                  className="px-4 text-white"
+                  className="px-4 pt-3 text-white"
                   style={{
                     background: "transparent",
                     fontSize: "17px",
@@ -51,10 +53,10 @@ const Projects = () => {
                   }}
                 >
                   {" "}
-                  Hello Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima, et. Dolore maiores magnam voluptatum molestias quos
-                  eius expedita quae fugit est reprehenderit veniam veritatis
-                  similique, quia eos beatae. Illo, maiores!
+                  My Portfolio site built with React, hosted on Netlify for
+                  seamless accessibility. Utilizing GitHub Actions ensures
+                  continuous deployment, keeping the content fresh and
+                  up-to-date.
                 </div>
               </Card.Body>
               <Card.Footer>
@@ -67,7 +69,8 @@ const Projects = () => {
                     opacity: 0.6,
                   }}
                 >
-                  Mern Stack | Bootstrap | Netlify
+                  React JS | React Bootstrap | Netlify | Framer Motion | Github
+                  Action
                 </div>
               </Card.Footer>
             </Card>
@@ -89,16 +92,17 @@ const Projects = () => {
                 />
               </Card.Header>
               <Card.Body className=" text-white ">
-               
-                  <div
-                    className="px-4 text-white"
-                    style={{ background: "transparent", fontSize: "22px" }}
-                  >
-                    <Link to="https://github.com/Sharjun-Hussain/EventnSpot-Web-Application">EventSpot Hall Booking</Link> 
-                 </div>
-               
                 <div
                   className="px-4 text-white"
+                  style={{ background: "transparent", fontSize: "22px" }}
+                >
+                  <Link to="https://github.com/Sharjun-Hussain/EventnSpot-Web-Application">
+                    EventSpot Hall Booking
+                  </Link>
+                </div>
+
+                <div
+                  className="px-4 pt-3 text-white"
                   style={{
                     background: "transparent",
                     fontSize: "17px",
@@ -107,15 +111,14 @@ const Projects = () => {
                   }}
                 >
                   {" "}
-                  Hello Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima, et. Dolore maiores magnam voluptatum molestias quos
-                  eius expedita quae fugit est reprehenderit veniam veritatis
-                  similique, quia eos beatae. Illo, maiores!
+                  The Event Hall Booking System based on the MERN stack is a web
+                  application that allows users to search for and book event
+                  halls or banquet venues.
                 </div>
               </Card.Body>
               <Card.Footer>
                 <div
-                  className="px-4 text-white mb-3"
+                  className="px-4 text-white mb-3 text-center"
                   style={{
                     background: "transparent",
                     fontSize: "13px",
@@ -123,7 +126,7 @@ const Projects = () => {
                     opacity: 0.6,
                   }}
                 >
-                  Mern Stack | Bootstrap | Netlify
+                  Mern Stack | Bootstrap | Netlify | Github Action | Cyclic | 
                 </div>
               </Card.Footer>
             </Card>
