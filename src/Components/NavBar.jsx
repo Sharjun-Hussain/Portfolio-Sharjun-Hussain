@@ -3,7 +3,7 @@ import logo from "../assets/Logo/logo.png";
 
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Resume from '../assets/resume.pdf'
+import Resume from '../assets/ResumeSharjunHussain.pdf'
 // import HomeIcon from "../assets/Icons/Home.gif";
 // import ContactIcon from "../assets/Icons/Contact.gif";
 
