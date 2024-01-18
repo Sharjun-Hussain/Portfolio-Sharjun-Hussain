@@ -4,11 +4,11 @@ Welcome to the repository for my personal portfolio site, built using React. Thi
 
 ## Table of Contents
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+
+
 - [Technologies Used](#technologies-used)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
+
 - [License](#license)
 
 ## Features
