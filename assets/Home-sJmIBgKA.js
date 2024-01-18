@@ -1,7 +1,0 @@
-import{j as t,r as s,_ as e}from"./index-7yqLQxNN.js";const o=()=>t.jsx("div",{className:"loader-wrapper",children:t.jsx("div",{className:"loader"})}),_=s.lazy(()=>e(()=>import("./About-i6Jlgok3.js"),__vite__mapDeps([0,1,2,3,4]))),i=s.lazy(()=>e(()=>import("./Hero-8SoTCYFh.js"),__vite__mapDeps([5,1,2,6,3,4]))),l=s.lazy(()=>e(()=>import("./NavBar-KGGhddoz.js"),__vite__mapDeps([7,1,2,3,8]))),n=s.lazy(()=>e(()=>import("./Projects-axNnjX6W.js"),__vite__mapDeps([9,1,2,3,4,8]))),c=s.lazy(()=>e(()=>import("./Contact-eaDRBm_Q.js"),__vite__mapDeps([10,1,2,6,3,4]))),u=()=>{const[r,a]=s.useState(!0);return s.useEffect(()=>{setTimeout(()=>{a(!1)},3e3)},[]),t.jsx(t.Fragment,{children:r?t.jsx(o,{}):t.jsxs(s.Suspense,{fallback:t.jsx(o,{}),children:[t.jsx(l,{}),t.jsx(i,{}),t.jsx(_,{}),t.jsx(n,{}),t.jsx(c,{})]})})};export{u as default};
-function __vite__mapDeps(indexes) {
-  if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["assets/About-i6Jlgok3.js","assets/index-7yqLQxNN.js","assets/index-Bmq7uOIN.css","assets/Container-oGHWbM-8.js","assets/Row-J1E1DhIu.js","assets/Hero-8SoTCYFh.js","assets/motion-mPWyQl8-.js","assets/NavBar-KGGhddoz.js","assets/CardHeaderContext-5gUKPIZV.js","assets/Projects-axNnjX6W.js","assets/Contact-eaDRBm_Q.js"]
-  }
-  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
-}
