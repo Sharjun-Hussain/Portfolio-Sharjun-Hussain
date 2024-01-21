@@ -2,6 +2,7 @@
 // import LoadingScreen from "../Components/LoadingScreen";
 import { lazy, Suspense, useEffect, useState } from "react";
 import Loader from "../Components/Loader";
+import Background from "../Particles/Background";
 
 const About = lazy(() => import("../Components/About"));
 const Hero = lazy(() => import("../Components/Hero"));
@@ -31,12 +32,14 @@ const Home = () => {
         <Loader />
       ) : (
         <Suspense fallback={<Loader />}>
+          <Background />
           <TopNav />
           {/* <ColouredLine color="white" /> */}
           <Hero />
           <About />
           <Projects />
           <Contact />
+
         </Suspense>
       )}
     </>

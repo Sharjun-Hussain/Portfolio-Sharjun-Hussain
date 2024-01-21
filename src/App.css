@@ -1,7 +1,8 @@
 :root {
   --special-color: rgb(100, 255, 218);
   --normal-color: white;
-  --background-color: rgb(10, 24, 46);
+  /* --background-color: rgb(10, 24, 46); */
+    --background-color: rgba(10, 24, 46,0);
 }
 
 * {
