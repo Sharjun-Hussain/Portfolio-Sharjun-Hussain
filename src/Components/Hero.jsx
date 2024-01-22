@@ -19,11 +19,20 @@ const Hero = () => {
             <h2 className="big-heading">Sharjun Hussain.</h2>
             <h3 className="sub-heading">I build things for the web.</h3>
             <p>
-              I’m a software engineer specializing in building (and occasionally
+              I’m a fulstack dev specializing in building (and occasionally
               designing) exceptional digital experiences. Currently, I’m focused
-              on building accessible, human-centered products at Upstatement.
+              on building accessible, human-centered products at Upstatement. I
+              am an enthusiastic and fast learner with expertise in React JS,
+              Node JS, Express JS, Laravel, and Bootstrap. As a full-stack
+              developer, I have honed my skills in these technologies and have a
+              strong passion for creating excellent web applications.
             </p>
-            <a className="button" href="https://linkedin.com/in/sharjun-hussain">Connect with Me</a>
+            <a
+              className="button"
+              href="https://linkedin.com/in/sharjun-hussain"
+            >
+              Connect with Me
+            </a>
           </Col>
         </Row>
       </Container>

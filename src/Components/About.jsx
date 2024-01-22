@@ -1,39 +1,38 @@
 // import { Suspense, } from "react";
-import { Col, Container,  Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import My from "../assets/My.jpg";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const About = () => {
   return (
-   
-      <Container id="about" className=" about-section ">
-        <Row>
-          <Col>
-            <div className="heading ">
-              <h2>
-                {" "}
-                <span style={{ fontSize: "20px" }}>01.</span> About Me
-              </h2>{" "}
-              <hr />
-              <div />
-            </div>
-          </Col>
-        </Row>
+    <Container id="about" className=" about-section ">
+      <Row>
+        <Col>
+          <div className="heading ">
+            <h2>
+              {" "}
+              <span style={{ fontSize: "20px" }}>01.</span> About Me
+            </h2>{" "}
+            <hr />
+            <div />
+          </div>
+        </Col>
+      </Row>
 
-        <Row>
-          <Col md={6} xs={12} className="order-1 order-md-0">
-            <p>
-              As a dedicated full-stack developer, I specialize in React JS,
-              Node JS, Express JS, Laravel, and Bootstrap. With a keen passion
-              for crafting top-tier web applications, my skills cover dynamic
-              user interfaces and robust server-side logic. Committed to
-              excellence, I bring proficiency and enthusiasm to every project.
-            </p>
-            <p>Here are a few technologies I’ve been working with recently:</p>
-            <Container className="">
-              <Row>
+      <Row>
+        <Col md={6} xs={12} className="order-1 order-md-0">
+          <p>
+            As an accomplished full-stack developer, I specialize in crafting
+            dynamic and user-friendly web applications. <br /> With a keen focus on application
+            development, I am gearing towards creating Point of Sale (POS)
+            systems and cloning applications. My commitment to delivering
+            engaging and innovative web solutions is evident in the successful
+            development of my portfolio site.  I am well-prepared to bring my
+            expertise to new development endeavors and collaborative teams.
+          </p>
+          <p>Here are a few technologies I’ve been working with recently:</p>
+          <Container className="">
+            <Row>
               <Col md={6} xs={6} className="">
                 <ul>
                   <li>React JS</li>
@@ -44,7 +43,7 @@ const About = () => {
                   <li>Github Actions | Netlify CI/CD</li>
                 </ul>
               </Col>
-              <Col md={6} xs={6} >
+              <Col md={6} xs={6}>
                 <ul>
                   <li>My SQL</li>
                   <li>PHP</li>
@@ -54,13 +53,12 @@ const About = () => {
                   <li>Docker</li>
                 </ul>
               </Col>
-              </Row>
-              
-            </Container>
-          </Col>
-          <Col md={6} xs={12} className="MyImage-Container order-0 ">
-            <LazyLoadImage src={My} alt="Hello" effect="blur"  width={350} />
-           {/* <Suspense fallback={<div>Loading</div>}>
+            </Row>
+          </Container>
+        </Col>
+        <Col md={6} xs={12} className="MyImage-Container order-0 ">
+          <LazyLoadImage src={My} alt="Hello" effect="blur" width={350} />
+          {/* <Suspense fallback={<div>Loading</div>}>
             <Image
               src={My}
               fluid
@@ -70,11 +68,9 @@ const About = () => {
               loading="lazy"
             />
             </Suspense>  */}
-           
-          </Col>
-        </Row>
-      </Container>
-    
+        </Col>
+      </Row>
+    </Container>
   );
 };
 
