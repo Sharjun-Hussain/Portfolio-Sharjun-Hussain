@@ -19,7 +19,11 @@ const Hero = () => {
             <h2 className="big-heading">Sharjun Hussain.</h2>
             <h3 className="sub-heading">I build things for the web.</h3>
             <p>
-              I’m a full-stack dev specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Studyz Academy (PVT) Ltd.
+              I’m a full-stack dev specializing in building (and occasionally
+              designing) exceptional digital experiences. Currently, I’m focused
+              on building accessible, human-centered products at{" "}
+              <span style={{ color: "rgb(100, 255, 218)" }}>Studyz
+              Academy (PVT) Ltd.</span> 
             </p>
             <a
               className="button"

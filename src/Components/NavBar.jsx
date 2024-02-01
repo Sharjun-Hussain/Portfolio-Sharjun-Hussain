@@ -47,6 +47,9 @@ function TopNav() {
                   /> */}
                        <span className="text-white">02. </span> Projects
                 </Nav.Link>
+                  <Nav.Link href="#skills" className="px-3">
+                    <span className="text-white" >03. </span> Skills
+                  </Nav.Link>
                 <Nav.Link href="#contact" className="px-3  ">
                   {/* <img
                     src={ContactIcon}
@@ -54,8 +57,9 @@ function TopNav() {
                     alt="Home Icon"
                     width={25}
                   />{" "} */}
-                      <span className="text-white ">03. </span> Contact
+                      <span className="text-white ">04. </span> Contact
                 </Nav.Link>
+
                 <a className="Resumebutton" download="Sharjun-Hussain-Resume.pdf" rel="noreferrer"  target="_blank" href={Resume}>Resume</a>
               </Nav>
             </Offcanvas.Body>
