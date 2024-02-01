@@ -1,10 +1,17 @@
 // import { Suspense, } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import My from "../assets/My.jpg";
+import { motion } from "framer-motion";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const About = () => {
   return (
+
+    <motion.div
+      initial={{ opacity: 0, y: 0 }}
+      whileInView={{ opacity: 1, y: -20 }}
+      transition={{ duration: 1 , delay:0.5}}
+    >
     <Container id="about" className=" about-section ">
       <Row>
         <Col>
@@ -23,7 +30,7 @@ const About = () => {
         <Col md={6} xs={12} className="order-1 order-md-0">
           <p>
             As an accomplished full-stack developer, I specialize in crafting
-            dynamic and user-friendly web applications. <br /> With a keen focus on application
+            dynamic and user-friendly web applications. With a keen focus on application
             development, I am gearing towards creating Point of Sale (POS)
             systems and cloning applications. My commitment to delivering
             engaging and innovative web solutions is evident in the successful
@@ -71,6 +78,7 @@ const About = () => {
         </Col>
       </Row>
     </Container>
+    </motion.div>
   );
 };
 
