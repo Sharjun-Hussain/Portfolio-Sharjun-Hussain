@@ -2,6 +2,7 @@
 // import LoadingScreen from "../Components/LoadingScreen";
 import { lazy, Suspense, useEffect, useState } from "react";
 import Loader from "../Components/Loader";
+import Skills from "../Components/Skills";
 
 const About = lazy(() => import("../Components/About"));
 const Hero = lazy(() => import("../Components/Hero"));
@@ -35,6 +36,7 @@ const Home = () => {
           {/* <ColouredLine color="white" /> */}
           <Hero />
           <About />
+          <Skills/>
           <Projects />
           <Contact />
         </Suspense>
