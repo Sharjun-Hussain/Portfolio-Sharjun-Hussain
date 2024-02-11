@@ -11,7 +11,7 @@ const About = () => {
       whileInView={{ opacity: 1, y: -20 }}
       transition={{ duration: 1, delay: 0.2 }}
     >
-      <Container id="about" className=" about-section ">
+      <Container id="about" className=" about-section   ">
         <Row>
           <Col>
             <div className="heading ">
@@ -25,7 +25,7 @@ const About = () => {
           </Col>
         </Row>
 
-        <Row >
+        <Row className="content" >
           <Col md={6} xs={12} className="order-1 order-md-0">
             <p>
               As an accomplished full-stack developer, I specialize in crafting
