@@ -1,8 +1,8 @@
 // import { Suspense, } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import My from "../assets/My.jpg";
+// import My from "../assets/My.jpg";
 import { motion } from "framer-motion";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const About = () => {
   return (

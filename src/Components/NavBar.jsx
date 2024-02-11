@@ -37,6 +37,9 @@ function TopNav() {
                   />{" "} */}
                   <span className="text-white">01. </span> About
                 </Nav.Link>
+                <Nav.Link href="#skills" className="px-3">
+                    <span className="text-white" >02. </span> Skills
+                  </Nav.Link>
                 <Nav.Link href="#projects" className="px-3">
                   {" "}
                   {/* <img
@@ -45,11 +48,9 @@ function TopNav() {
                     alt="Home Icon"
                     width={25}
                   /> */}
-                       <span className="text-white">02. </span> Projects
+                       <span className="text-white">03. </span> Projects
                 </Nav.Link>
-                  <Nav.Link href="#skills" className="px-3">
-                    <span className="text-white" >03. </span> Skills
-                  </Nav.Link>
+                  
                 <Nav.Link href="#contact" className="px-3  ">
                   {/* <img
                     src={ContactIcon}
