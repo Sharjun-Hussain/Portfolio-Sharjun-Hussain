@@ -43,9 +43,11 @@ const About = () => {
           <Col
             md={6}
             xs={12}
-            className="MyImage-Container order-0 d-flex  justify-content-center  "
+            className=" order-0 d-flex  justify-content-center  "
           >
-            <LazyLoadImage src={My} alt="Hello" effect="blur" width={350} />
+            <div className="MyImg"></div>
+            
+            {/* <LazyLoadImage  src={My} alt="Hello" effect="blur" width={350}  /> */}
           </Col>
         </Row>
       </Container>

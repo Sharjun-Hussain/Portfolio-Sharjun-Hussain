@@ -265,6 +265,15 @@ h2 {
   filter: none !important;
 }
 
+.MyImg{
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  background: url('./assets//My.jpg');
+  background-size: cover;
+  margin-top: 15px;
+}
+
 li {
   position: relative;
   padding-left: 20px !important;
