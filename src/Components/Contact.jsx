@@ -69,8 +69,9 @@ const Contact = () => {
         </Container>
       </div>
 
-      <div className="footer d-flex justify-content-center pb-5">
-        Designed By Sharjun Hussain.
+      <div className="footer d-flex flex-column  align-items-center justify-content-center pb-3">
+        <h2>Developed By Sharjun Hussain</h2>
+        <h4>Designed using React Bootstrap</h4>
       </div>
     </div>
   );

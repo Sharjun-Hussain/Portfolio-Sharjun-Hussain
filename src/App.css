@@ -403,17 +403,39 @@ transform: translateY(10px);
   display: flex;
   cursor: pointer;
   transition: 0.3s;
-  margin: 5px;
+  margin: 4px;
+  padding: 2px;
 }
 
 .Social:hover{
-  filter: drop-shadow(0px 0px 6px #64ffda);
+  filter: drop-shadow(0px 0px 5px #64ffda);
 }
 .contact-section{
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.contact-section .button {
+  color: var(--special-color);
+  background-color: transparent;
+  border: 1px solid var(--special-color);
+  border-radius: 5px;
+  padding-block: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
+  text-decoration: none;
+  transition: 0.3s;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  margin-block: 10px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  transition: linear;
+  font-family: "Space Mono", monospace;
 }
 
 .big-heading-Contact{
