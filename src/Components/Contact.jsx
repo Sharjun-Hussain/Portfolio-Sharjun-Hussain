@@ -1,5 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 // import Tilt from "react-parallax-tilt";
+
+import  Twitter  from "../assets/Icons/Twitter.svg";
+import  Linkedin  from "../assets/Icons/Linkedin.svg";
+import  Mail  from "../assets/Icons/Mail.svg";
+import  Github  from "../assets/Icons/Github.svg";
 import { motion } from "framer-motion";
 
 import { Col, Container, Row } from "react-bootstrap";
@@ -47,6 +52,19 @@ const Contact = () => {
                 Say Hello
               </a>
             </div>
+          </Row>
+        </Container>
+        <Container>
+          <Row>
+            <Col>
+            <div className="SocialIconsWrapper d-flex justify-content-center gap-3 ">
+              <a href="https://twitter.com/sharjun_hussain/"><div className="Social"><img src={Twitter} width={30} /></div></a>
+              <a href="https://www.linkedin.com/in/sharjun-hussain/"><div className="Social"><img src={Linkedin} width={22} /></div></a>
+              <a href="https://github.com/Sharjun-Hussain/"><div className="Social"><img src={Github} width={25} /></div></a>
+              <a href="mailto:sharjunhussain@outlook.com"> <div className="Social"><img src={Mail} width={30} /></div></a>
+              
+            </div>
+            </Col>
           </Row>
         </Container>
       </div>
