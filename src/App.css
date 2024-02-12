@@ -240,39 +240,22 @@ p {
 
 h2 {
   line-height: 1 !important;
-  font-family: "Poppins", sans-serif !important;
   font-weight: 600 !important;
   overflow-y: hidden;
   color: white !important;
-  position: relative;
+  
 }
 
-
-
-.MyImage::before {
+.aboutHeading::after{
   content: "";
-  position: absolute !important;
-  width: 100%;
-  height: 100%;
-  inset: 0px;
-  z-index: 3 !important;
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
-  background-color: #0a192f !important;
-  mix-blend-mode: screen !important;
-}
-
-.MyImage {
-  position: relative !important;
-  z-index: 1 !important;
-
-  margin-left: 70px !important;
-}
-.MyImage:hover {
-  box-shadow: 6px 6px 0 0 var(--special-color);
-  transform: translate(-4px, -4px);
-  cursor: pointer;
-  background: transparent !important;
-  filter: none !important;
+  position: absolute;
+  width: 25%;
+  height: 1px;
+  left: 300px;
+  top: 74px;
+  background-color: var(--special-color);
+  opacity: 0.3;
+  
 }
 
 .MyImg{
@@ -304,9 +287,61 @@ li::before {
 }
 
 
+/* Skills SEction */
+
+
+
+.skill-section {
+  
+  
+  padding-inline: 20px !important;
+  padding-top: 60px;
+  position: relative;
+}
+
+
+.skillsheading::before {
+  content: "";
+  width: 12%;
+  height: 1px;
+  background: var(--special-color);
+  right: 1000px;
+  top: 80px;
+  left: 4px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.skillsheading::after {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 1px;
+  opacity: 0.3;
+  top: 80px;
+  left: 1000px;
+  
+  background-color: var(--special-color);
+}
+
+
 
 /* Project Section */
 
+.projectheading{
+  position: relative;
+}
+
+.projectheading::before {
+  content: "";
+  width: 70%;
+  height: 1px;
+  background: var(--special-color);
+  left: 1px;
+  bottom: 16px;
+  opacity: 0.3;
+  position: absolute;
+}
 
 .card{
   background-color: #112240 !important;

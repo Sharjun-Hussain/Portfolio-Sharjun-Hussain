@@ -14,12 +14,12 @@ const About = () => {
       <Container id="about" className=" about-section   ">
         <Row>
           <Col>
-            <div className="heading ">
+            <div className="aboutHeading ">
               <h2>
                 {" "}
-                <span style={{ fontSize: "20px" }}>01.</span> About Me
+                <span style={{ fontSize: "25px" }}>01.</span> ABOUT ME
               </h2>{" "}
-              <hr />
+              
               <div />
             </div>
           </Col>

@@ -20,7 +20,7 @@ const Contact = () => {
                 <div className="heading text-center  ">
                   <h2>
                     {" "}
-                    <span style={{ fontSize: "16px" }}>03. What's Next</span>
+                    <span style={{ fontSize: "16px" }}>04. What's Next</span>
                   </h2>{" "}
                   <div />
                 </div>

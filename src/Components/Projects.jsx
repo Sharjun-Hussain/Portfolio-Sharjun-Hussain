@@ -7,13 +7,13 @@ const Projects = () => {
     <Container id="projects" className=" project-section ">
       <Row>
         <Col>
-          <div className="heading text-end pt-5 ">
-            <h2>
+          <div className="projectheading text-end pt-5 ">
+            <h2 style={{textTransform:"Capitalize"}}>
               {" "}
-              <span style={{ fontSize: "20px" }}>02.</span> Some Things I’ve
+              <span style={{ fontSize: "25px" }}>03.</span> Some Things I’ve
               Built
             </h2>{" "}
-            <hr />
+            
             <div />
           </div>
         </Col>
