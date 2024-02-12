@@ -8,9 +8,9 @@ const Projects = () => {
       <Row>
         <Col>
           <div className="projectheading text-end pt-5 ">
-            <h2 style={{textTransform:"Capitalize"}}>
+            <h2 style={{textTransform:"Capitalize"}} className="afterandbefore">
               {" "}
-              <span style={{ fontSize: "25px" }}>03.</span> Some Things I’ve
+              <span className="d-none d-lg-inline " style={{ fontSize: "25px" }}>03.</span> Some Things I’ve
               Built
             </h2>{" "}
             

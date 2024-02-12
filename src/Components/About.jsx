@@ -15,9 +15,9 @@ const About = () => {
         <Row>
           <Col>
             <div className="aboutHeading ">
-              <h2>
+              <h2 className="text-center text-lg-start mobile-Responsive afterandbefore">
                 {" "}
-                <span style={{ fontSize: "25px" }}>01.</span> ABOUT ME
+                <span className=" d-none d-lg-inline " style={{ fontSize: "25px" }}>01.</span> ABOUT ME
               </h2>{" "}
               
               <div />

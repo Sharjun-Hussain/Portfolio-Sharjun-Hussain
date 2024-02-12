@@ -7,7 +7,7 @@ const Skills = () => {
     <div>
          <Container id="skills" className="skill-section">
               <Row>
-                <div className=" skillsheading heading text-center mt-2 mb-5"><h2><span style={{ fontSize: "25px" }}>02. </span> Here are a few technologies I’ve been working with recently:</h2></div>
+                <div className=" skillsheading heading text-center mt-2 mb-5"><h2 className="afterandbefore"><span className="d-none d-lg-inline " style={{ fontSize: "25px" }}>02. </span> Here are a few technologies I’ve been working with recently:</h2></div>
                 <Col md={6} xs={6} className="">
                   <ul>
                     <li>React JS</li>
