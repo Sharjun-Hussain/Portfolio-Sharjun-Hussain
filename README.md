@@ -1,4 +1,4 @@
-# Portfolio Site
+# Portfolio of My Self
 
 Welcome to the repository for my personal portfolio site, built using React. This site showcases my projects, skills, and experience in a user-friendly and visually appealing manner.
 
