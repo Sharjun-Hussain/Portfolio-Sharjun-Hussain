@@ -1,12 +1,14 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import Bookmarking from "../assets/Icons/Bookmarking.gif";
 import { Link } from "react-router-dom";
+import {content} from '../Utilities/content'
 
 const Projects = () => {
   return (
     <Container id="projects" className=" project-section ">
       <Row>
         <Col>
+       
           <div className="projectheading text-end pt-5 ">
             <h2
               style={{ textTransform: "Capitalize" }}
