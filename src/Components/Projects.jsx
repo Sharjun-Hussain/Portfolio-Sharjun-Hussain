@@ -152,7 +152,7 @@ const Projects = () => {
                   className="px-4 text-white"
                   style={{ background: "transparent", fontSize: "22px" }}
                 >
-                  EventSpot Hall Booking
+                  Accounting Book
                 </div>
                 <div
                   className="px-4 text-white"
@@ -180,7 +180,7 @@ const Projects = () => {
                     opacity: 0.6,
                   }}
                 >
-                  Mern Stack | Bootstrap | Netlify
+                  Mern Stack | Bootstrap | 
                 </div>
               </Card.Footer>
             </Card>
@@ -206,7 +206,7 @@ const Projects = () => {
                   className="px-4 text-white"
                   style={{ background: "transparent", fontSize: "22px" }}
                 >
-                  EventSpot Hall Booking
+                  Landing Page For Jannah Marketing (PVT) LTD
                 </div>
                 <div
                   className="px-4 text-white"
@@ -234,7 +234,7 @@ const Projects = () => {
                     opacity: 0.6,
                   }}
                 >
-                  Mern Stack | Bootstrap | Netlify
+                  Mern Stack | Bootstrap | Github Pages | Git
                 </div>
               </Card.Footer>
             </Card>
@@ -260,7 +260,7 @@ const Projects = () => {
                   className="px-4 text-white"
                   style={{ background: "transparent", fontSize: "22px" }}
                 >
-                  EventSpot Hall Booking
+                  E-Commerce Site For JSON Electric Shop
                 </div>
                 <div
                   className="px-4 text-white"
@@ -288,7 +288,7 @@ const Projects = () => {
                     opacity: 0.6,
                   }}
                 >
-                  Mern Stack | Bootstrap | Netlify
+                  Wordpress | WooCommerce |
                 </div>
               </Card.Footer>
             </Card>
