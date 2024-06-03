@@ -1,14 +1,13 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import Bookmarking from "../assets/Icons/Bookmarking.gif";
 import { Link } from "react-router-dom";
-import {content} from '../Utilities/content'
+import { content } from "../Utilities/content";
 
 const Projects = () => {
   return (
     <Container id="projects" className=" project-section ">
       <Row>
         <Col>
-       
           <div className="projectheading text-end pt-5 ">
             <h2
               style={{ textTransform: "Capitalize" }}
@@ -228,10 +227,11 @@ const Projects = () => {
                   }}
                 >
                   {" "}
-                  Hello Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima, et. Dolore maiores magnam voluptatum molestias quos
-                  eius expedita quae fugit est reprehenderit veniam veritatis
-                  similique, quia eos beatae. Illo, maiores!
+                  I recently developed a landing page for Jannah Marketing (PVT)
+                  Ltd, a leading beverage company. This landing page, built
+                  using React, showcases the company's diverse range of
+                  beverages and highlights its commitment to quality and
+                  customer satisfaction.
                 </div>
               </Card.Body>
               <Card.Footer>
@@ -282,10 +282,10 @@ const Projects = () => {
                   }}
                 >
                   {" "}
-                  Hello Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima, et. Dolore maiores magnam voluptatum molestias quos
-                  eius expedita quae fugit est reprehenderit veniam veritatis
-                  similique, quia eos beatae. Illo, maiores!
+                  JSON Electric Shop is a comprehensive e-commerce site built
+                  using WooCommerce and WordPress, designed to provide a
+                  seamless shopping experience for customers looking for
+                  electrical products.
                 </div>
               </Card.Body>
               <Card.Footer>
@@ -336,10 +336,9 @@ const Projects = () => {
                   }}
                 >
                   {" "}
-                  URL Shortener is an application designed to shorten the
-                   long web addresses. This tool allows users
-                  to convert lengthy URLs into shorter, easy-to-share links.
-                  
+                  URL Shortener is an application designed to shorten the long
+                  web addresses. This tool allows users to convert lengthy URLs
+                  into shorter, easy-to-share links.
                 </div>
               </Card.Body>
               <Card.Footer>
