@@ -8,12 +8,19 @@ const Projects = () => {
       <Row>
         <Col>
           <div className="projectheading text-end pt-5 ">
-            <h2 style={{textTransform:"Capitalize"}} className="afterandbefore">
+            <h2
+              style={{ textTransform: "Capitalize" }}
+              className="afterandbefore"
+            >
               {" "}
-              <span className="d-none d-lg-inline " style={{ fontSize: "25px" }}>03.</span> Some Things I’ve
-              Built
+              <span
+                className="d-none d-lg-inline "
+                style={{ fontSize: "25px" }}
+              >
+                03.
+              </span>{" "}
+              Some Things I’ve Built
             </h2>{" "}
-            
             <div />
           </div>
         </Col>
@@ -61,7 +68,7 @@ const Projects = () => {
               </Card.Body>
               <Card.Footer>
                 <div
-                  className="px-4 text-white mb-3"
+                  className="px-4 text-white mb-3 text-center"
                   style={{
                     background: "transparent",
                     fontSize: "12px",
@@ -126,7 +133,7 @@ const Projects = () => {
                     opacity: 0.6,
                   }}
                 >
-                  Mern Stack | Bootstrap | Netlify | Github Action | Cyclic | 
+                  Mern Stack | Bootstrap | Netlify | Github Action | Cyclic |
                 </div>
               </Card.Footer>
             </Card>
@@ -164,15 +171,16 @@ const Projects = () => {
                   }}
                 >
                   {" "}
-                  Hello Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima, et. Dolore maiores magnam voluptatum molestias quos
-                  eius expedita quae fugit est reprehenderit veniam veritatis
-                  similique, quia eos beatae. Illo, maiores!
+                  Accounting Book is a application designed to streamline
+                  financial management. It enables users to track both income
+                  and expenses. With its user-friendly interface and secure
+                  infrastructure, This is the ideal solution for businesses to
+                  maintain organized and accurate financial records.
                 </div>
               </Card.Body>
               <Card.Footer>
                 <div
-                  className="px-4 text-white mb-3"
+                  className="px-4 text-white mb-3 text-center"
                   style={{
                     background: "transparent",
                     fontSize: "13px",
@@ -180,7 +188,7 @@ const Projects = () => {
                     opacity: 0.6,
                   }}
                 >
-                  Mern Stack | Bootstrap | 
+                  Mern Stack | Bootstrap | Github Action | Netlify CI/CD
                 </div>
               </Card.Footer>
             </Card>
@@ -226,7 +234,7 @@ const Projects = () => {
               </Card.Body>
               <Card.Footer>
                 <div
-                  className="px-4 text-white mb-3"
+                  className="px-4 text-white mb-3 text-center"
                   style={{
                     background: "transparent",
                     fontSize: "13px",
@@ -280,7 +288,7 @@ const Projects = () => {
               </Card.Body>
               <Card.Footer>
                 <div
-                  className="px-4 text-white mb-3"
+                  className="px-4 text-white mb-3 text-center"
                   style={{
                     background: "transparent",
                     fontSize: "13px",
@@ -314,7 +322,7 @@ const Projects = () => {
                   className="px-4 text-white"
                   style={{ background: "transparent", fontSize: "22px" }}
                 >
-                  EventSpot Hall Booking
+                  URL Shortener
                 </div>
                 <div
                   className="px-4 text-white"
@@ -326,15 +334,15 @@ const Projects = () => {
                   }}
                 >
                   {" "}
-                  Hello Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima, et. Dolore maiores magnam voluptatum molestias quos
-                  eius expedita quae fugit est reprehenderit veniam veritatis
-                  similique, quia eos beatae. Illo, maiores!
+                  URL Shortener is an application designed to shorten the
+                   long web addresses. This tool allows users
+                  to convert lengthy URLs into shorter, easy-to-share links.
+                  
                 </div>
               </Card.Body>
               <Card.Footer>
                 <div
-                  className="px-4 text-white mb-3"
+                  className="px-4 text-white mb-3 text-center"
                   style={{
                     background: "transparent",
                     fontSize: "13px",
@@ -342,7 +350,7 @@ const Projects = () => {
                     opacity: 0.6,
                   }}
                 >
-                  Mern Stack | Bootstrap | Netlify
+                  React | Github | Github Action | Cpanel Hosting | Rest API
                 </div>
               </Card.Footer>
             </Card>
